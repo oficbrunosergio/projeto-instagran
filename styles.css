@@ -1,0 +1,140 @@
+/* font-family: 'Roboto', sans-serif; */
+* {
+  margin: 0; /*POSICIONAMENTO PRO LADO DE FORA*/
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+
+/*Aguardando lugar no projeto*/
+nav {
+  margin: 35px 0px 20px 1200px;
+  position: static;
+}
+
+.link-nav {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 99px;
+  color: #989d9c;
+  cursor: pointer;
+  margin-right: 53px;
+  padding: 20px 20px 20px 25px;
+}
+
+.button-nav {
+  background: #665ae1;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 40.5px;
+  width: 330px; /*DIMENSÃO DO TEXTO*/
+  height: 81px; /*LARGURA*/
+  border: none;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 29px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.projeto-instagram {
+  width: 100vw;
+  height: 100vh;
+  width: 2400px;
+  height: 2165px;
+  margin: 50px 0px 0px 600px; /*POSICIONAMENTO PRO LADO DE FORA*/
+  display: flex;
+  padding: auto; /*POSICIONAMENTO PRO LADO DE DENTRO*/
+}
+
+.button-entrar {
+  background-color: #0095f6;
+  width: 733px;
+  height: 78px;
+  border: none;
+  border-radius: 3px;
+  margin: 20px 40px 0px 140px; /*POSICIONAMENTO PRO LADO DE FORA*/
+  font-size: 100%;
+  color: #ffffff;
+  padding: 5px; /*POSICIONAMENTO PRO LADO DE DENTRO*/
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 53px;
+}
+
+.insta-logo {
+  margin: 20px 0px 20px 280px;
+  width: 50%;
+}
+
+.login-facebook {
+  color: #385183;
+  font-weight: bold; /*NEGRITO*/
+  text-align: center; /*ALINHAMENTO DO TEXTO (SÓ PARA TEXTOS)*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 50px; /*TAMANHO DAS LETRAS*/
+  cursor: pointer;
+}
+
+.esqueceu-senha {
+  color: #385183;
+  text-align: center;
+  font-size: 50px;
+  height: 30px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.tema-box {
+  position: absolute;
+  margin: 12px 0px 150px 900px; /*POSICIONAMENTO PRO LADO DE FORA*/
+
+  font-size: 58px;
+  font-weight: 900;
+  width: max-content; /*EMPEDE DO TEXTO SER QUEBRADO*/
+  height: 100px;
+  align-items: center;
+}
+
+.container-inf {
+  background-color: #fafafa;
+  margin: 100px 10px 25px 0px; /*POSICIONAMENTO PRO LADO DE FORA*/
+  justify-content: center;
+  padding: auto; /*POSICIONAMENTO PRO LADO DE DENTRO*/
+}
+
+.container-form {
+  background-color: #fafafa;
+  margin: 100px 10px; /*POSICIONAMENTO PRO LADO DE FORA*/
+  justify-content: center;
+  border: 1px solid #dbdbdb;
+  padding: 50px; /*POSICIONAMENTO PRO LADO DE DENTRO*/
+  align-items: center;
+  width: 1108px;
+  height: 1000px;
+}
+
+.login-facebook {
+  text-decoration: underline;
+}
+
+.img-celular {
+  background-color: #fafafa;
+  margin: 100px 10px;
+}
+
+input {
+  padding-left: 25px;
+  outline: none;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  margin: 20px 140px; /*POSICIONAMENTO PRO LADO DE FORA*/
+  width: 733px;
+  height: 78px;
+  text-align: justify;
+  font-weight: 400; /*ESPESSURA DA FONTE*/
+  font-size: 38px; /*TAMANHO DAS LETRAS*/
+  color: #262626;
+}
