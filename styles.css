@@ -26,7 +26,7 @@ nav {
 .button-nav {
   background: #665ae1;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  border-radius: 40.5px;
+  border-radius: 40.5px;  
   width: 330px; /*DIMENSÃO DO TEXTO*/
   height: 81px; /*LARGURA*/
   border: none;
@@ -41,19 +41,20 @@ nav {
   width: 100vw;
   height: 100vh;
   width: 2400px;
-  height: 2165px;
+  height: 2165px; /*LARGURA*/
   margin: 50px 0px 0px 600px; /*POSICIONAMENTO PRO LADO DE FORA*/
   display: flex;
   padding: auto; /*POSICIONAMENTO PRO LADO DE DENTRO*/
 }
 
+
 .button-entrar {
   background-color: #0095f6;
   width: 733px;
-  height: 78px;
+  height: 78px; /*LARGURA*/
   border: none;
   border-radius: 3px;
-  margin: 20px 40px 0px 140px; /*POSICIONAMENTO PRO LADO DE FORA*/
+  margin: 20px 40px 0px 35px; /*POSICIONAMENTO PRO LADO DE FORA*/
   font-size: 100%;
   color: #ffffff;
   padding: 5px; /*POSICIONAMENTO PRO LADO DE DENTRO*/
@@ -61,10 +62,12 @@ nav {
   justify-content: center;
   cursor: pointer;
   font-size: 53px;
+  bottom: ho;
+  
 }
 
 .insta-logo {
-  margin: 20px 0px 20px 280px;
+  margin: 20px 0px 20px 200px;
   width: 50%;
 }
 
@@ -94,7 +97,7 @@ nav {
   font-size: 58px;
   font-weight: 900;
   width: max-content; /*EMPEDE DO TEXTO SER QUEBRADO*/
-  height: 100px;
+  height: 100px; /*LARGURA*/
   align-items: center;
 }
 
@@ -112,17 +115,26 @@ nav {
   border: 1px solid #dbdbdb;
   padding: 50px; /*POSICIONAMENTO PRO LADO DE DENTRO*/
   align-items: center;
-  width: 1108px;
-  height: 1000px;
+  width: 898px;
+  height: 800px; /*LARGURA*/
 }
 
 .login-facebook {
   text-decoration: underline;
 }
 
-.img-celular {
-  background-color: #fafafa;
-  margin: 100px 10px;
+.conteiner-imagens {
+  position: relative;
+}
+
+.imagem-celular {
+  height: 1090px; /*LARGURA*/
+  left: 320px; /*MOVER PARA ESQUERDA*/
+  top: 53px; /*MOVER PARA CIMA*/
+  border-radius: 70px; /*BORDAS*/
+  position: absolute;
+  transition: opacity 2s ease-in-out; /*suavidade na mudança das imagens*/
+
 }
 
 input {
@@ -130,9 +142,9 @@ input {
   outline: none;
   border: 1px solid #dbdbdb;
   border-radius: 3px;
-  margin: 20px 140px; /*POSICIONAMENTO PRO LADO DE FORA*/
+  margin: 20px 37px; /*POSICIONAMENTO PRO LADO DE FORA*/
   width: 733px;
-  height: 78px;
+  height: 78px; /*LARGURA*/
   text-align: justify;
   font-weight: 400; /*ESPESSURA DA FONTE*/
   font-size: 38px; /*TAMANHO DAS LETRAS*/

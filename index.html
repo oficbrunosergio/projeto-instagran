@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,8 +13,8 @@
     />
     <link rel="stylesheet" href="./styles.css" />
     <title>Replica Instagram</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- COLOCAR DIREÇÃO NO SRC -->
     <nav>
       <a href="./index.html" class="link-nav">Inicio</a>
@@ -24,38 +24,50 @@
       <button class="button-nav">Muito +</button>
     </nav>
     <div class="projeto-instagram">
-        <p class="tema-box">PROJETO INSTAGRAM - REPLICA</p>
-        <div class="img-celular">
+      <p class="tema-box">PROJETO INSTAGRAM - REPLICA</p>
+      <div class="conteiner-imagens">
+        <img
+          src="./assents/paginaprincipal.img/celular.png"
+          class="instagram-celular"
+        />
+        <img
+          src="./assents/paginaprincipal.img/fid-instagram1.jpg"
+          class="imagem-celular" 
+        />
+        <img
+          src="./assents/paginaprincipal.img/fid-instagram2.jpg"
+          class="imagem-celular" id="troca-imagem"
+        />
+      </div>
+      <div class=".container-itens">
+        <div class="container-form">
           <img
-            src="./assents/paginaprincipal.img/celular.png"
-            class="instagram-celular"
+            src="./assents/paginaprincipal.img/insta-logo.png"
+            class="insta-logo"
           />
-          <img src="./assents/paginaprincipal.img/insta1.png" class="instagram-1" />
-          <img src="./assents/paginaprincipal.img/insta2.png" class="instagram-2" />
-        </div>
-        <div class=".container-itens">
-          <div class="container-form">
-            <img src="./assents/paginaprincipal.img/insta-logo.png" class="insta-logo" />
-            <input
-              class="input1-instagram"
-              autocapitalize="off"
-              maxlength="75"
-              placeholder="Telefone, nome de usuário ou email"
-              type="text"
-              name="username"
-            />
-            <input
-              class="input2-instagram"
-              placeholder="Senha"
-              type="password"
-              name="username"
-            />
-            <button class="button-entrar">Entrar</button>
-            <p class="login-facebook"><b>Entrar com o Facebook</b></p>
-            <p class="esqueceu-senha">Esqueceu a senha?</p>
-          </div>
+          <input
+            class="input1-instagram"
+            autocapitalize="off"
+            maxlength="75"
+            placeholder="Telefone, nome de usuário ou email"
+            type="text"
+            name="username"
+          />
+          <input
+            class="input2-instagram"
+            placeholder="Senha"
+            type="password"
+            name="username"
+          />
+          <button class="button-entrar">Entrar</button>
+          <p class="login-facebook"><b>Entrar com o Facebook</b></p>
+          <p class="esqueceu-senha">Esqueceu a senha?</p>
         </div>
       </div>
+    </div>
+  </body>
+  <script src="./scripts.js">
+
     
-</body>
+  </script>
 </html>
